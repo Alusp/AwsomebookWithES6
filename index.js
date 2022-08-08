@@ -1,3 +1,12 @@
+import { Book } from "./modules/Book.js";
+import { BStorage } from "./modules/BStorage.js";
+import { UI } from "./modules/UI.js";
+import { DateTime } from "./modules/luxon.js";
+
+const dat = document.querySelector('#date');
+
+dat.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+
 
 // Listeners 
 document.querySelector("form").addEventListener("submit", (event) => {
@@ -25,4 +34,11 @@ document.querySelector(".add").addEventListener("click", (e) => {
   document.getElementsByClassName("book")[0].style.display = "none";
   document.getElementsByClassName("contact-me")[0].style.display = "none";
   document.getElementsByClassName("add-book-list")[0].style.display = "flex";
+});
+
+document.querySelector(".contact").addEventListener("click", (e) => {
+  e.preventDefault();
+  document.getElementsByClassName("book")[0].style.display = "none";
+  document.getElementsByClassName("contact-me")[0].style.display = "flex";
+  document.getElementsByClassName("add-book-list")[0].style.display = "none";
 });
