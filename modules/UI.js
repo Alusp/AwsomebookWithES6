@@ -1,4 +1,5 @@
 /* eslint-disable */
+import { BStorage } from "./BStorage.js";
 export class UI {
   static displayBook() {
     const bookList = BStorage.getBook();
