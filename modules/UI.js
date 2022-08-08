@@ -1,6 +1,6 @@
-/* eslint-disable */
-import { BStorage } from "./BStorage.js";
-export class UI {
+import BStorage from './BStorage.js';
+
+export default class UI {
   static displayBook() {
     const bookList = BStorage.getBook();
     bookList.forEach((book, index) => {
@@ -9,9 +9,9 @@ export class UI {
   }
 
   static addBookToScreen(book, index) {
-    document.querySelector(".book h2").style.display = "block";
-    const table = document.getElementsByClassName("book-list")[0];
-    const row = document.createElement("tr");
+    document.querySelector('.book h2').style.display = 'block';
+    const table = document.getElementsByClassName('book-list')[0];
+    const row = document.createElement('tr');
     const td = ` <td>${book.title} By ${book.author}</td> <td class='btn-td'> <button type="button" id="${index}" class="btn-remove"> Remove </button></td> `;
     row.innerHTML = td;
     table.appendChild(row);
