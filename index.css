@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+  border: 4px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 15px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 1px 18px;
+  font-weight: bold;
+}
+
+header li {
+  border-right: 5px solid #333;
+}
+
+.date-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+#date {
+  font-weight: bold;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 73vh;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+}
+
+.book h2 {
+  display: none;
+  margin-bottom: 1.5em;
+}
+
+table {
+  border: 4px solid #333;
+  width: 40%;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+.btn-remove {
+  float: right;
+  border: 3px solid #333;
+  padding: 3px 10px 3px 3px;
+  margin: 5px;
+  font-weight: bold;
+  border-right: 5px solid #333;
+  border-bottom: 5px solid #333;
+}
+
+tr:nth-child(odd) {
+  background: #ccc;
+  padding: 28px;
+}
+
+tr:nth-child(even) {
+  background: #fff;
+  border: none;
+}
+
+td {
+  padding: 0 5px;
+}
+
+.add-book-list {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+}
+
+.add-book-list h2 {
+  margin-bottom: 1.5em;
+}
+
+/* form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+} */
+
+input {
+  display: block;
+  padding: 10px;
+  margin: 15px 0;
+  width: 320px;
+  height: 40px;
+  box-sizing: border-box;
+  font-weight: bolder;
+  border: 5px solid #333;
+}
+
+.add-btn {
+  padding: 5px;
+  text-align: center;
+  width: 50px;
+  border-right: 5px solid #333;
+  border-bottom: 5px solid #333;
+  font-weight: bold;
+  float: right;
+}
+
+.contact-me {
+  display: none;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.contact-me h2 {
+  align-self: center;
+  margin-bottom: 1.5em;
+}
+
+.contact-list {
+  margin-left: 34px;
+}
+
+footer {
+  border: 5px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 15px;
+}
+
+.copy-right {
+  font-weight: bold;
+}
