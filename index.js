@@ -1,7 +1,7 @@
 import Book from './modules/Book.js';
 import BStorage from './modules/BStorage.js';
 import UI from './modules/UI.js';
-import DateTime from './modules/luxon.js';
+import { DateTime } from './modules/luxon.js';
 
 const dat = document.querySelector('#date');
 
