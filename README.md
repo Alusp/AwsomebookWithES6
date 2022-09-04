@@ -5,6 +5,7 @@
 > This project is designed to implement plain javascript object.
 > This project contains .It shows you everything about me and the services I can provide.
 
+[Live Demo](https://alusp.github.io/AwsomebookWithES6/)
  
 
 ## Built With
