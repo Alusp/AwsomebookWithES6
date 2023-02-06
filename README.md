@@ -1,7 +1,6 @@
 # Awesome-books-using-ES6
 
-> This project is designed to implement plain javascript object.
-> This project contains .It shows you everything about me and the services I can provide.
+> Awesome Book is a simple web project that displays a user's book library and allows the user to add and remove books from the library, built with Html, CSS, and JavaScript.
 
 [Live Demo](https://alusp.github.io/AwsomebookWithES6/)
  
@@ -55,7 +54,7 @@ Project reside in this Repo. You can clone the repo or download the files manual
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Alusp/AwsomebookWithES6/issues/).
 
 ## Show your support
 
